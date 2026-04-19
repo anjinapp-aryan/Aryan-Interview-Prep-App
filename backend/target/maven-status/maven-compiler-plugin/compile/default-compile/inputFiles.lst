@@ -1,0 +1,12 @@
+D:\Aryan-Interview-Prep-App\backend\src\main\java\com\interviewprep\app\service\GeminiService.java
+D:\Aryan-Interview-Prep-App\backend\src\main\java\com\interviewprep\app\dto\InterviewRequest.java
+D:\Aryan-Interview-Prep-App\backend\src\main\java\com\interviewprep\app\config\CorsConfig.java
+D:\Aryan-Interview-Prep-App\backend\src\main\java\com\interviewprep\app\controller\InterviewController.java
+D:\Aryan-Interview-Prep-App\backend\src\main\java\com\interviewprep\app\InterviewPrepApplication.java
+D:\Aryan-Interview-Prep-App\backend\src\main\java\com\interviewprep\app\service\HealthService.java
+D:\Aryan-Interview-Prep-App\backend\src\main\java\com\interviewprep\app\controller\HealthController.java
+D:\Aryan-Interview-Prep-App\backend\src\main\java\com\interviewprep\app\dto\ApiResponse.java
+D:\Aryan-Interview-Prep-App\backend\src\main\java\com\interviewprep\app\service\InterviewService.java
+D:\Aryan-Interview-Prep-App\backend\src\main\java\com\interviewprep\app\config\AppConfig.java
+D:\Aryan-Interview-Prep-App\backend\src\main\java\com\interviewprep\app\dto\InterviewResponse.java
+D:\Aryan-Interview-Prep-App\backend\src\main\java\com\interviewprep\app\exception\GlobalExceptionHandler.java
