@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from 'react';
+import { evaluateInterview } from '../lib/api';
 
 type EvaluationResponse = {
   score: number;
@@ -88,13 +89,7 @@ export default function Home() {
     setResponse(null);
 
     try {
-      const res = await fetch('http://localhost:8081/api/interview/evaluate', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ question, answer }),
-      });
+      const res = await evaluateInterview(question, answer);
 
       if (!res.ok) {
         let errorMessage = `Failed to evaluate. Server responded with status ${res.status}`;
